@@ -91,9 +91,10 @@ function renderOrderSummary() {
                 </div>
                 </div>
             </div>
-            </div>
+            
         `
         });
+        return html;
     }
     document.querySelector(".js-order-summary").innerHTML = cartSummaryHTML;
     document.querySelectorAll(".js-delete-link").forEach((link) => {
