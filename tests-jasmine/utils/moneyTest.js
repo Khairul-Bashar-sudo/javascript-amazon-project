@@ -1,4 +1,4 @@
-import { formatMoney } from '../src/money.js';
+import { formatMoney } from '../../src/money.js';
 describe('formatMoney', () => {
     it('converts cents to dollars', () => {
         expect(formatMoney(2095)).toEqual('20.95');
