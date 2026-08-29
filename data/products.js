@@ -70,6 +70,8 @@ export function loadProductsFetch() {
         return new Product(productDetails);
       });
 
+    }).catch((error) => {
+      console.error('Error loading products:', error);
     });
   return promise;
 }
